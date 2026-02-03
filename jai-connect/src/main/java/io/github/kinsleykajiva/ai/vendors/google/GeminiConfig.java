@@ -86,7 +86,7 @@ public class GeminiConfig {
     public static class Builder {
         private String apiKey;
         // Default to a model that supports Live API
-        private String modelId = GeminiModel.GEMINI_2_0_FLASH_LIVE_PREVIEW_04_09.getModelId();
+        private String modelId = GeminiModel.GEMINI_2_5_FLASH_NATIVE_AUDIO_PREVIEW_12_2025.getModelId();
         private GeminiVoice voice = GeminiVoice.PUCK;
         private GeminiAudioFormat responseAudioFormat = GeminiAudioFormat.PCM_16000;
         private String systemInstruction = "You are a helpful assistant.";
