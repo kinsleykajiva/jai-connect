@@ -43,7 +43,7 @@
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jai-voice.version>0.1.0</jai-voice.version>
+        <jai-voice.version>0.1.1</jai-voice.version>
     </properties>
 
     <dependencyManagement>
