@@ -6,7 +6,7 @@
 
     <groupId>io.github.kinsleykajiva</groupId>
     <artifactId>jai-connect</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -51,7 +51,12 @@
             <artifactId>webrtc-java</artifactId>
             <version>0.14.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.genai</groupId>
+            <artifactId>google-genai</artifactId>
+            <version>1.37.0</version>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
